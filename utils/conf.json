@@ -1,0 +1,23 @@
+{
+  "gpu": "0",
+  "type": "cifar10",
+  "num_of_clients": 15,
+  "cfraction": 1,
+  "local_epoch": 30,
+  "batch_size": 128,
+  "model_name": "resnet20",
+  "learning_rate": 0.05,
+  "val_freq": 1,
+  "save_freq": 5,
+  "num_comm": 3,
+  "save_path": "./checkpoints",
+  "IID": true,
+  "sigma": 0,
+  "noise": 0,
+  "Attack": "no",
+  "Attack_type": "sign_flip",
+  "MaliNum": 0,
+  "Local_Model_Value": "no",
+  "Dishonest_Server_Attack": "no", 
+  "Dishonest_Server_Tampering_Proportion": 0 
+}
