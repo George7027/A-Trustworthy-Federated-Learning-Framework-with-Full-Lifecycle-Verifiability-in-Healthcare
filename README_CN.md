@@ -1,9 +1,11 @@
-## 1. 简介
-本项目基于PyTorch 1.12.0和Python 3.9。 数据集目前采用MNIST数据集，CIFAR10数据集， 
-Our framework use FedAVG as the baseline FL algorithm.
+1. Introduction
+This project is based on PyTorch 1.11.0 and Python 3.9.18.
+The datasets currently used include MNIST and CIFAR-10.
+Our framework uses FedAVG as the baseline federated learning algorithm.
 
-## 2. 使用方法
-修改conf.json中参数即可, 运行如下代码：
+2. Usage
+You can configure parameters by modifying the conf.json file.
+Then, run the following command:
 ```bash
 python server.py -c ./utils/conf.json
 ```
